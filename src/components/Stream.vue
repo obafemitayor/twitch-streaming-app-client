@@ -126,9 +126,9 @@
             </thead>
             <tbody>
                 <tr v-for="tag in tagssharedbetweenuserandtopstreams.shared_tags_btw_user_and_top_streams" :key="tag.tag_id">
-                    <td>{{tag.tag_id}}</td>
-                    <td>{{game.totalstreams}}</td>
-                    <td>{{game.viewer_count}}</td>
+                    <td>{{tag.tagId}}</td>
+                    <td>{{tag.localization_name}}</td>
+                    <td>{{tag.localization_description}}</td>
                 </tr>
             </tbody>
         </table>
